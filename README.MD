@@ -1,22 +1,30 @@
 ##  Introduction
 
-Streamlined student book management through a comprehensive web application that facilitates record-keeping of issued books, tracks borrowed books and due dates, and offers real-time availability information, simplifying library operations.
+The Library Management System streamlines administrative tasks, empowers students to interact with the library digitally, and ensures efficient book tracking, reservations, and event management. It provides a user-friendly and organized platform for both library staff and members to enhance their library experience.
+
+## Technologies
+* HTML/CSS
+* JavaScript
+* ReactJS
+* NodeJs
+* ExpressJs
+* MongoDB
 
 ## Key Features
 ### Book Management :
 Easily add, edit, and organize books, journals, and other materials. The system provides a searchable database with detailed information about each item, including author, publication date, genre, and availability status.
 
 ### User Account :
-Mangers can create accounts, enabling them to check out books, renew loans, and place holds online. Librarians can manage user accounts, set borrowing limits, and track user history.
+Mangers can create accounts, enabling them to check out books, renew books, and place holds online. Librarians can manage user accounts, set borrowing limits, and track user history.
 
-### Check-in & Check-out:
+### Adding Books:
 
-Streamline the borrowing process with barcode scanning or RFID technology. Automate due date calculations and send reminders for overdue items
+Admins can efficiently add books to the library's collection, specifying details like the book title, author, genre, ISBN, and the number of available copies. This ensures accurate tracking of the library's inventory
 
-### Reservations and Holds:
+### Reserving a Book for Specific Dates:
 
-Users can reserve books that are currently checked out and receive notifications when the items become available. This feature ensures fair access to popular materials.
+Members can reserve books they wish to borrow in advance for specific dates. This ensures that desired books are available when needed and promotes efficient library resource management.
 
 ### Admin Dashboard: 
 
-Offer librarians and administrators a user-friendly dashboard for system configuration, monitoring, and maintenance
+Upon login, administrators and students are greeted with their respective dashboards. Admins can access tools for managing members, books, and transactions, while students can view their account status and perform actions like borrowing and reserving books
